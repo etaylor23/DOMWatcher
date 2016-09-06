@@ -1,0 +1,1075 @@
+		/*
+  Running Squiz Matrix
+  Developed by Squiz - http://www.squiz.net
+  Squiz, Squiz Matrix, MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd
+  Page generated: 05 September 2016 22:30:54
+*/
+
+
+.unihub-site .share-container {  display: none; } 
+/* .unihub-site .site-navigation span {  color: #00f5ff; } */
+
+body.unihub-site .site-search {
+      background-color: black;
+  }
+
+.unihub-site .site-search .arrow {
+    border-left: 2.4em solid #000;
+}
+
+.site-search .tt-dropdown-menu {
+    z-index: 99 !important;
+}
+
+/* Navigation */
+
+.unihub-site .site-navigation a {
+  max-width:9.5em;
+}
+
+.unihub-site .site-navigation li.current a {
+  background-color: #fff;
+  color: #eb212e;
+  text-decoration: none;
+  padding-bottom: 0.75em;
+}
+
+/* Header style */
+
+.unihub-site header {
+  background: #eb212e;
+  border-bottom: 0.2em solid #fff;
+}
+
+/* Footer style */
+
+.unihub-site footer {
+  background: #eb212e;
+  border-top: 0.2em solid #fff;
+}
+
+/* FAQ Element */
+.unihub-site .accordion h6, .unihub-site .accordion-no-content h6 {
+    color: #333333;
+    display: block;
+    margin: 0 0 0 -1.667em;
+    padding-left: 1.667em;
+    font: 400 normal 15px/1.266em 'dax-medium', arial, sans-serif;
+}
+
+/* Unihub Spotlight */
+
+.homepage .carousel-navigation .flex-active-slide h5 {
+    color: #000;
+}
+
+.item-title > a {
+    color: #fff;
+}
+
+.unihub-site .sidebar-left .item-title, 
+.unihub-site .sidebar-right .item-title {
+  margin-bottom: 0;
+  }
+
+.item-title .spotlight  {
+    font-size: 1em;
+    line-height: 1.4em;
+  }
+
+.item-title .spotlight-side  {
+    font-size: 1.2em;
+  }
+
+.itpos{
+   position: absolute;
+}
+
+.slpos{
+   padding-top: 1.888em;
+}
+
+.item-content-size{
+   height: 7.5em;
+}
+
+.unihub-site .split-content .item-content {
+    background: #fff;
+}
+
+.spotlight-sidebar {
+      background: #fff;
+  }
+
+/* Call to Action buttons */
+/* Description: White background, black text and red arrow */
+
+/* ------- .unihub-site .block-links-list li {
+      background: rgb(255,255,255,1);
+      background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,1)));
+      background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 100%);
+      background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 100%);
+      background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 100%);
+      background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 100%);
+      -webkit-box-shadow: 0px 5px 8px 0px rgba(30, 30, 30, 0.75);
+      -moz-box-shadow:    0px 5px 8px 0px rgba(30, 30, 30, 0.75);
+      box-shadow:         0px 5px 8px 0px rgba(30, 30, 30, 0.75);
+  }
+
+.unihub-site .block-links-list a {
+    color:#333;
+    background: transparent url("http://www.mdx.ac.uk/?a=230832") 98% center no-repeat; /* 95% */
+}
+
+.unihub-site .block-links-list a:hover {
+      background-position: 100% center;
+      text-decoration: underline;
+  } ------- */
+
+/* FAQ ----Allow bullet points on content---- */
+
+.unihub-site .tab-course-content ul {
+      list-style-type:initial;
+  }
+
+/* sub nav */ 
+    .inner-grandchild-navigation > li.active.current-page > a {
+    background: none;
+    }
+    /* .unihub-site .inner-navigation .show.subnav.active {
+    background-color: #eb212e;
+    } */
+    .unihub-site .inner-navigation > li > .active.current-page {
+    background: url("http://www.mdx.ac.uk/__data/assets/image/0011/8102/icon-unihub-arrow-white.png?v=0.1.10") no-repeat 1em 50% #eb212e;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 3em;
+    }       
+    .unihub-site .inner-navigation > li > a {        
+    color:#ffffff;        
+    padding-left:2em;        
+    background:url("http://www.mdx.ac.uk/__data/assets/image/0011/8102/icon-unihub-arrow-white.png?v=0.1.10") no-repeat left 50%;        
+    margin-left:1em;        
+    }        
+    /* level 1 */        
+    .unihub-site .inner-navigation > li.subnav {        
+    background: #585858;        
+    }        
+    /* level 2 */        
+    .unihub-site ul.sub.inner-child-navigation {        
+    background:#969696;        
+    }        
+    .unihub-site ul.sub.inner-child-navigation li a {        
+    color:#ffffff;        
+    padding-left: 3em;        
+    }        
+    /* level 3 */        
+    .unihub-site ul.sub2.inner-grandchild-navigation {        
+    background:#cccccc;        
+    }        
+    .unihub-site ul.sub2.inner-grandchild-navigation li a {        
+    color:#000000;        
+    padding-left: 3em;        
+    }        
+    /* level 4 */        
+    .unihub-site ul.sub3 {        
+    background:#ffffff;        
+    }        
+    .unihub-site ul.sub2.inner-grandchild-navigation li.current-page li.subnav4 a {        
+    color:#000000;        
+    }        
+    .unihub-site ul.sub.inner-child-navigation li.subnav4 > a {        
+    background: none;        
+    }        
+    .unihub-site ul.sub.inner-child-navigation li.subnav4 > a.current-page {        
+    margin-right:0;        
+    background:#EB212E url("http://www.mdx.ac.uk/__data/assets/image/0011/8102/icon-unihub-arrow-white.png?v=0.1.10") no-repeat 1em 50%;        
+    color:#ffffff;        
+    }        
+    .inner-child-navigation > li.active.current-page > a {        
+    background: none;        
+    }        
+    .unihub-site .current-page{        
+    color:#ffffff;        
+    background:#EB212E url("http://www.mdx.ac.uk/__data/assets/image/0011/8102/icon-unihub-arrow-white.png?v=0.1.10") no-repeat 1em .5em;        
+    }        
+    .unihub-site ul.sub2.inner-grandchild-navigation li.current-page a {        
+    color:#ffffff;        
+    }
+
+/* calendar */
+
+.calendar-page .calendar-view .past-event.event a, .calendar-page .calendar-view .past-event.holiday a {
+    color: #b2b2b2;
+}
+.calendar-page .calendar-view .event a {
+    color: #de2328;
+}
+
+.calendar-page .calendar-view .holiday a {
+    color: #29aae1;
+}
+
+/* today + event */
+.calendar-page .calendar-view .ui-datepicker-calendar td.ui-datepicker-today a {
+    color: #de2328;
+    outline: 2px solid #de2328;
+}
+
+.calendar-page .calendar-view .ui-datepicker-calendar td.ui-datepicker-selected a {
+    background: red;
+    border:1px solid red;
+    color:#fff;
+} 
+
+.calendar-page .calendar-view .ui-datepicker-calendar td.ui-datepicker-other a {
+    color:red;
+} 
+
+.calendar-page .calendar-view .ui-datepicker-calendar td.ui-datepicker-holiday a {
+    color:#00adde;
+} 
+
+
+.calendar-page .calendar-view .ui-datepicker-calendar .ui-state-hover {
+    background: none;
+    border: none;
+}
+
+.calendar-page .calendar-view td {
+    border: none;
+    margin: auto;
+    text-align: center;
+    padding: 2px 6px;
+}
+
+.calendar-page .calendar-view td a {
+    background: none;
+    border: none;
+    color: #333;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-align: center;
+}
+
+.calendar-page .calendar-view .ui-datepicker-header {
+    background-color: #de2328;
+    border: none;
+    border-radius: 0;
+    width: 23em;
+}
+
+.calendar-page .calendar-view .ui-datepicker-calendar thead, .calendar-page .calendar-view .ui-datepicker-calendar tr, .calendar-page .calendar-view table {
+    background: none;
+}
+
+.calendar-page .calendar-view .ui-datepicker {
+    background: none;
+    border: none;
+}
+
+.calendar-page .calendar-view .ui-datepicker-title {
+    text-transform: uppercase;
+}
+
+.calendar-page .calendar-view .ui-datepicker-calendar td .ui-state-active, .calendar-page .calendar-view .ui-datepicker-calendar td.ui-datepicker-today .ui-state-active {
+    background-color: #de2328;
+    color: white;
+}
+
+.calendar-page .legend {
+    text-align: center;
+    padding: 25px 30px;
+}
+.calendar-page .legend > span {
+    font-size: 0.8em;
+    margin-right: 15px;
+}
+.calendar-page .legend > span > span {
+  margin-bottom: -3px;
+}
+.calendar-page .legend .holiday-events > span {
+    background:#00adde;
+      display: inline-block;
+      height: 15px;
+      margin-right: 5px;
+      width: 15px;
+}
+
+.calendar-results {
+    display: inline-block;
+    height: 291px;
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-align: left;
+    width: 100%;
+}
+
+
+
+/* datepicker styles */
+
+.ui-datepicker {
+    width: 17em;
+}
+
+.ui-datepicker .ui-datepicker-header {
+    padding: 0.2em 0;
+    position: relative;
+    margin-bottom: 0.3em;
+}
+
+.ui-widget-header {
+    color: #fff;
+    font-weight: bold;
+}
+
+.ui-datepicker table {
+    font-size: 0.9em;
+}
+
+.ui-datepicker .ui-datepicker-prev {
+    left: 2px;
+}
+
+.ui-datepicker .ui-datepicker-next {
+    right: 2px;
+}
+
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
+    height: 1.8em;
+    position: absolute;
+    top: 2px;
+    width: 1.8em;
+}
+
+.ui-widget-header a {
+    color: #fff;
+}
+
+.ui-datepicker .ui-datepicker-title {
+    line-height: 1.8em;
+    margin: 0 2.3em;
+    text-align: center;
+}
+
+.ui-datepicker th {
+    padding: 0.7em 0.3em;
+}
+
+.ui-widget-content a {
+    color: #333;
+}
+
+.ui-state-disabled {
+    cursor: default !important;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    font-weight: bold;
+}
+
+.ui-datepicker td span, .ui-datepicker td a {
+    display: block;
+    padding: 0.2em;
+    text-decoration: none;
+}
+
+/* UI Date Picker Overrides */
+
+.calendar-page .ui-datepicker {
+    width:auto;
+}
+
+.calendar-page .ui-datepicker table {
+  width:60%;
+  margin:0 auto;
+}
+
+.ui-datepicker .ui-datepicker-title {
+  font-size:1.3em;
+}
+
+.calendar-page .calendar-view .ui-datepicker-header {
+    width:auto;
+    margin-bottom:40px;
+}
+
+.calendar-page .ui-datepicker .ui-datepicker-next, .calendar-page .ui-datepicker .ui-datepicker-prev {
+    cursor:pointer;
+    top: 8px;
+    width: 11px;
+    height: 24px;
+    position: absolute;
+}
+
+.calendar-page .ui-datepicker .ui-datepicker-next {
+    background: url("http://www.mdx.ac.uk/__data/assets/image/0021/8085/uni-hub-next.png?v=0.1.10") no-repeat center center;
+    right: 0;
+    margin-right: 25px;
+}
+
+.calendar-page .ui-datepicker .ui-datepicker-prev {
+    background: url("http://www.mdx.ac.uk/__data/assets/image/0022/8086/uni-hub-previous.png?v=0.1.10") no-repeat center center;
+    margin-left:25px;
+}
+
+/* Text Carousel */
+
+.unihub-site .carousel-navigation li {        
+    background: #000000        
+    }        
+    .unihub-site .carousel-navigation li a {        
+    color:#ffffff;        
+    }
+
+.text-carousel .item-title {
+  position: absolute;
+  z-index: 3;
+  font-size: 0.98em;
+}
+
+.text-carousel .more {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.text-carousel .more .description {
+    width: 70%;
+    display: inline-block;
+    color:#fff;
+}
+
+.text-carousel .more .read-more {
+    width: 29%;
+    display: inline-block;
+    vertical-align:top;
+}
+
+.read-more::after {
+    font-size: 0;   
+    position: relative;   
+    display: inline-block;   
+    width: 8px;   
+    height: 12px;   
+    margin-top: -27px;   
+    margin-right: 28px;   
+    content: '';  
+    vertical-align: middle;   
+    background: url('http://www.mdx.ac.uk/__data/assets/image/0019/8092/cta-arrow.png?v=0.1.10') no-repeat top left;   
+    background-size: 100% 100%;
+    float: right;
+}
+
+.text-carousel .more .read-more span {
+    background: #eb212e;
+    color: #fff;
+    padding: 10px;
+    display: block;
+}
+
+.text-carousel .more .read-more span:after {
+    background: blue;
+}
+
+.text-carousel .carousel-navigation .flex-active-slide a {
+  background: #fff;
+  color: #000;
+}
+
+
+.text-carousel .flex-direction-nav li {
+    bottom: 160px;
+    z-index: 10;
+}
+
+/* JS PASTE - some styles from GIT styles */
+
+.unihub-site .event-item-container{
+}
+
+.unihub-site .event-item-container .event-item {
+  width: 100%;
+  background: #ffffff;
+  border-top:1px solid #c8c8c8;
+  border-bottom:1px solid #c8c8c8;
+  margin-bottom: -1px;
+  float: left
+}
+
+.unihub-site .event-item-container .event-item a {
+  text-decoration: none;
+  margin-left:1em;
+  display: block;
+  padding-bottom:.5em;
+
+}
+
+.unihub-site .event-item-container .event-item .event-image {
+  float:left;
+  margin:0 1em 0 -1em;
+}
+
+.unihub-site .event-item-container .event-item .event-image img{
+float:left;
+}
+ 
+.unihub-site .event-item-container .event-item h5 {
+  margin-bottom: 0;
+  padding-top: .6em; 
+  color: #000000;
+  font-size: 1.2em
+}
+
+.unihub-site .event-item-container .event-item p {
+  line-height: 1.501em;
+  margin:.3em 0;
+}
+
+.unihub-site .event-item-container .event-item .event-item-date {
+  color:#000000;
+  font-size:.85em;
+  font-weight: bold;
+}
+
+.unihub-site .submit-event {
+  position: relative;
+  font-size: 1.3em;
+  padding: .7em 1.1em;
+  margin: 1em auto;
+  color: #000000;
+  background: #ffffff;
+  float:right;
+  text-align: right
+}
+
+.unihub-site .submit-event:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-width: 16px 16px 0 0;
+  border-style: solid;
+  border-color: #ffffff #EBEBEB;
+}
+
+.unihub-site .submit-event a {
+  color:#000000;
+}
+
+.unihub-site .event-filter {
+  margin:1em 0;
+  background-color: #F7F7F7;
+}
+
+.unihub-site .event-filter h5 {
+  margin-left:1em;
+  margin-top:0.5em;
+}
+
+.unihub-site .event-filter form{
+  padding:1em;
+}
+
+.unihub-site .all-events-container {
+  background: #ffffff;
+  margin:1em 0;
+}
+
+.unihub-site .all-events-container .event-item {
+  padding-top:.7em;
+}
+
+.unihub-site .all-events-container h4 {
+  margin-bottom: 0;
+}
+
+.unihub-site .all-events-container .event-date {
+  margin-left:-.7em;
+}
+
+.unihub-site .squared-checkbox label {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 25px;
+  margin-right: 15px;
+  font-size: 13px;
+  margin-bottom: 10px;
+width:100%;
+}
+
+.unihub-site .squared-checkbox input[type=checkbox] {
+  display: none;
+}
+
+.unihub-site .squared-checkbox label:before {
+  content: "";
+  display: inline-block;
+  border-radius: 3px;
+  width: 20px;
+  height: 20px;
+  
+  margin-right: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  background: #e5e5e5;
+  border:1px solid #e1e1e1;
+  top:0;
+}
+
+.unihub-site .squared-checkbox  input[type=checkbox]:checked + label:before {
+  content: "\2713";
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+  font-size: 20px;
+  color: #EB212E;
+  text-align: center;
+  line-height: 22px;
+}
+
+
+
+
+/* cols */
+
+.unihub-site .content .col-3, 
+.unihub-site .content .col-2, 
+.unihub-site .content .col-4-1, 
+.unihub-site .content .col-4-3  {
+display: inline-block;
+width: 100%;
+vertical-align: top
+}
+
+@media (min-width: 960px) {
+  .unihub-site header.menu_fixed {
+    height:40px;
+  }
+ 
+  .unihub-site .content .col-3 {
+    width:32%;
+  }
+
+  .unihub-site .content .col-2 {
+    width:49.2%;
+  }
+
+  .unihub-site .content .col-4-3 {
+    width:74%;
+  }
+  .unihub-site .content .col-4-1 {
+    width:24%;
+    margin-right:1%;
+  }
+
+  .unihub-site .spotlights .col-3, 
+  .unihub-site .event-by-day-container .col-2{
+    margin-left:1%;
+  }
+}
+
+.ajax-overlay {
+    background: white;
+    display: block;
+    height: 100%;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.item-content-facility {
+    background: none repeat scroll 0 0 #000;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    float: left;
+    padding: 1.25em 0.733em 0.733em;
+    position: relative;
+    width: 100%;
+}
+
+.item-content a, .item-content-facility a {
+    color: #fff;
+}
+
+.item-content, .sidebar-item.facility-content {
+    background: #000;
+}
+
+.unihub-site .spotlights div:first-child, .unihub-site .event-by-day-container div:first-child {
+    margin-left: 0;
+}
+
+.unihub-site .event-item-container .event-item.no-results {
+    padding: 15px 13px;
+}
+
+.event-by-day-container.component {
+    position: relative;
+}
+
+.show-loader {
+    display: block !important;
+}
+
+
+/* Unihub Events */
+
+
+.unihub-events .saved-pages-component {
+    margin:10px 30px;
+}
+
+.unihub-events {
+    background: #ffffff;
+    width: 100%;
+    display: inline-block;
+}
+
+.unihub-events .content-container {
+
+    width:75%!important;
+}
+
+.unihub-events-form {
+    width: 100%;
+    display:inline-block;
+    position: relative;
+}
+
+.unihub-events-form form label,
+.unihub-events-form .select-container span {
+    display: inline-block;
+    line-height: 20px;
+    margin-right: 2%;
+    vertical-align: top;
+    width: 33%;
+}
+
+#new-event > label {
+    margin-bottom: 20px;
+}
+
+.unihub-events-form div.show-div label  {
+    padding-right:6px!important;
+    padding-left:0 !important;
+    width: 32% !important;
+}
+
+/* .unihub-events-form div:not(.select-content) label{
+    padding-left: 3px;
+    padding-right: 10px;
+    vertical-align: middle;
+    width: 30%;
+} */
+
+.unihub-events-form .select-content .list-option label {
+    width: auto;
+}
+
+.unihub-events-form form input[type="text"],
+.unihub-events-form form textarea,
+.unihub-events-form .select-content  {
+    display: inline-block;
+    margin-bottom: 1em;
+    width: 20em;
+}
+
+
+.unihub-events-form form input[type="radio"],
+.unihub-events-form form input[type="checkbox"],
+.unihub-events-form form select {
+ 
+    display: inline-block;
+
+    margin-bottom: 1em;
+}
+
+.unihub-events-form .select-container {
+     display: inline-block;
+     width: 100%;
+     vertical-align: top;
+}
+
+.unihub-events-form input#event-submit, .unihub-events-form input#event-reset {
+    background: #eb212e!important;
+    border: none;
+    color: #ffffff;
+    font-family: "dax-light";
+    font-size: 1.3em;
+    outline: medium none;
+    padding: 0.5em;
+    margin-top:20px;
+}
+
+.unihub-events-form  .select-container .select-content .list-option {
+    margin:0;
+    padding:0;    
+    list-style: none;
+}
+
+.unihub-events-form  .select-container .select-content .list-option li {
+    float:left;
+    list-style: none;
+    padding:0;
+}
+
+.unihub-events-form  .select-container .select-content .two-col li {
+width:49%;
+}
+
+.unihub-events-form  .select-container .select-content .one-col li {
+width:99%;
+}
+
+.unihub-events-form .show-div {
+    display: none;
+}
+
+.unihub-events-form div.error {
+    padding:10px 0;
+    margin-bottom: 10px
+}
+
+.unihub-events-form form li.error {
+    color:#ff0000;
+    font-size:.8em;
+    margin-left:20px;
+}
+
+.unihub-events-form  form input.error[type=checkbox] {
+    outline: 1px solid #F00;
+}
+.unihub-events-form form input.error,
+.unihub-events-form form select.error,
+.unihub-events-form form textarea.error {
+    border:1px solid #ff0000;
+}
+
+.calendar-page .ui-datepicker .ui-datepicker-prev.ui-state-disabled, .calendar-page .ui-datepicker .ui-datepicker-next.ui-state-disabled {
+    opacity: 0.5;
+}
+
+.form-error, .unihub-events-form .select-container .form-error {
+    color: #ff0000;
+    display: block;
+    margin: 0 0 20px 35.8%;
+    width: 100%;
+}
+
+.unihub-events .form-error > span {
+    display: block;
+    margin-right: 0;
+    width: 100%;
+}
+
+/* additional styles */
+
+/* side sticky */
+.unihub-site .sidesticky-button{
+float: right;
+clear: right;
+display: block;
+width: 35px;
+height: 128px;
+margin-bottom: 19px;
+text-indent: 100%;
+white-space: nowrap;
+overflow: hidden;
+}
+.unihub-site .myunihub-button {
+background: url("http://www.mdx.ac.uk/__data/assets/image/0013/8104/icon-myunihub-button.png?v=0.1.10") no-repeat;
+}
+.unihub-site .mdxsu-button {
+background: url("http://www.mdx.ac.uk/__data/assets/image/0014/8105/icon-mdxsu-button.png?v=0.1.10") no-repeat;
+}
+.unihub-site .mobile-sidesticky-button{
+clear: right;
+display: block;
+height: 35px;
+margin-bottom: 19px;
+text-indent: 100%;
+white-space: nowrap;
+overflow: hidden;
+}
+.unihub-site .mobile-nav-buttons .myunihub-button {
+float:left;
+background: url("http://www.mdx.ac.uk/__data/assets/image/0015/8106/icon-mobile-myunihub-button.png?v=0.1.10") no-repeat;
+width:120px;
+}
+.unihub-site .mobile-nav-buttons .mdxsu-button {
+float:right;
+background: url("http://www.mdx.ac.uk/__data/assets/image/0018/8109/icon-mobile-mdxsu-button.png?v=0.1.10") no-repeat;
+width: 105px;
+}
+@media (min-width: 960px) {
+.unihub-site header.menu_fixed {
+height:40px;
+}
+.unihub-site .content .col-3 {
+width:32%;
+}
+.unihub-site .content .col-2 {
+width:49.2%;
+}
+.unihub-site .content .col-4-3 {
+width:74%;
+}
+.unihub-site .content .col-4-1 {
+width:24%;
+margin-right:1%;
+}
+.unihub-site .spotlights .col-3,
+.unihub-site .event-by-day-container .col-2{
+margin-left:1%;
+}
+}
+.ajax-overlay {
+background: white;
+display: block;
+height: 100%;
+opacity: 0.6;
+position: absolute;
+top: 0;
+width: 100%;
+}
+.unihub-site .spotlights div:first-child, .unihub-site .event-by-day-container div:first-child {
+margin-left: 0;
+}
+.unihub-site .event-item-container .event-item.no-results {
+padding: 15px 13px;
+}
+.event-by-day-container.component {
+position: relative;
+}
+.show-loader {
+display: block !important;
+}
+/* footer */
+
+
+.unihub-site .footer-container .align-left{
+display: inline-block;
+text-align: left;
+width: 20%;
+vertical-align: top;
+}
+
+.unihub-site .footer-container .align-left-os{
+display: inline-block;
+text-align: left;
+width:9%;
+vertical-align: top;
+}
+.unihub-site .footer-container .align-left-mj{
+display: inline-block;
+text-align: left;
+width:7%;
+vertical-align: top;
+}
+.unihub-site .footer-container .align-left-mdx{
+display: inline-block;
+text-align: left;
+width:15%;
+vertical-align: top;
+}
+.unihub-site .footer-container .align-center {
+display: inline-block;
+text-align: left;
+width:37%;
+vertical-align: top;
+}
+.unihub-site .footer-container .align-right {
+display: inline-block;
+text-align: right;
+width:10%;
+vertical-align: top;
+}
+.unihub-site .footer-container .align-right a {
+text-align: right
+}
+.unihub-site .footer-container p {
+color:#ffffff;
+}
+.unihub-site .footer-container {
+font-size:.8em;
+}
+.unihub-site .footer-container .align-left a,
+.unihub-site .footer-container .align-left-mdx a,
+.unihub-site .footer-container .align-left-mj a,
+.unihub-site .footer-container .align-left-os a,
+.unihub-site .footer-container .align-center a,
+.unihub-site .footer-container .align-right a {
+color:#ffffff;
+}
+@media (max-width: 960px) {
+/* footer */
+.unihub-site .footer-container .align-left,
+.unihub-site .footer-container .align-left-mdx,
+.unihub-site .footer-container .align-left-mj,
+.unihub-site .footer-container .align-left-os,
+.unihub-site .footer-container .align-center,
+.unihub-site .footer-container .align-right {
+text-align: center;
+width:100%;
+vertical-align: top;
+margin-bottom: 10px
+}
+.unihub-site .align-left .social-icon-list li {
+float:none;
+}
+}
+@media (min-width: 1295px) {
+/* unihub large logo background */
+.unihub-site.homepage .main-container {
+background: url("http://www.mdx.ac.uk/__data/assets/image/0012/8103/bg-body-unihub.png?v=0.1.10") no-repeat;
+left: -90px;
+padding-left: 200px;
+position: relative;
+}
+}
+
+/* grey arrow for inner left navigation */
+/* .unihub-site .inner-navigation > li > a.active.current-page {
+  background-position: 97% 18%;
+} */
+
+.myunihub-logout {
+    text-decoration: underline;
+}
+
+.myunihub-logout:hover, .myunihub-logout:focus {
+    text-decoration: none;
+}
+
+.footer-container .align-center > p {
+    font-family: 'dax-medium',arial,sans-serif;
+}
+
+.sidebar-item .item-content p {
+    font-family: 'dax-medium',arial,sans-serif;
+}
+
+#myunihub-iframe {
+    margin-top: -17px;
+}
+
+.myunihub-login {
+    margin-top: -15px;
+}

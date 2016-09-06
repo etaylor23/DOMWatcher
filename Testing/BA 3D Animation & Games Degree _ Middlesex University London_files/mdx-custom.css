@@ -1,0 +1,63 @@
+		/*
+  Running Squiz Matrix
+  Developed by Squiz - http://www.squiz.net
+  Squiz, Squiz Matrix, MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd
+  Page generated: 05 September 2016 22:30:54
+*/
+
+
+@charset "utf-8";
+/* CSS Document */
+
+
+/*YouTube Video responsive styles*/
+
+.youtube-video {
+    position: relative;
+    padding-bottom: 56.25%!important; /* 16:9 */
+    padding-top: 25px!important;
+    height: 0;
+}
+.youtube-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*UG Courses key information increase fees text */
+
+.increase-fees .show{
+    font-size:0.8em!important;
+}
+
+.increase-fees .show a{
+    color:#ffffff;
+}
+
+/*Desktop Break point*/
+@media screen  and (min-width : 1224px){
+
+}
+
+/*Tablet break point*/
+@media screen and (min-width : 768px) and (max-width : 1024px){
+    .gmap #gmap_canvas{
+        width:100%!important;
+    }
+    .gmap{
+        width:100%!important;
+    }
+}
+
+/*Mobile Breae point*/
+@media screen and (min-width : 320px) and (max-width : 480px) {
+    .gmap #gmap_canvas{
+        width:100%!important;
+        height:300px!important;
+    }
+    .gmap{
+        width:100%!important;
+    }
+}
