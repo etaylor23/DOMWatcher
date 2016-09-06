@@ -31,7 +31,6 @@ function Differ(node, target) {
     catch(err) {
         var originalEl = "<div></div>";
     }
-    debugger;
     /*
      *  diffs = The difference between the page load target element's HTML and the new/updated element's HTML
      *  makePatch = Creates a patch between the page load target element's HTML and the differences from the updated element's HTML
@@ -52,7 +51,6 @@ function Differ(node, target) {
     if(checkDiff.length === 1) {
       console.log(`DOM HTML and Patched HTML is identical`)
     }
-
     /*
      *  Posts the applied patches to a local server
      */
